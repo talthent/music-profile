@@ -1,0 +1,1202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B3444EFD7E1108F7B9543E015C8D11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
+		0523B7C8A63DA42128DD53158BE63E20 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC8A609369FBA7D5A5BE3FAAC8717F /* PieSlice.swift */; };
+		092080F1DF547E2BA5961DE79832BAAA /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60D4EB6B350AD379EE7F25720483F5 /* Int.swift */; };
+		0AA81CDBF93F9CDF97456CF73BAFF2B9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1369DEE549A60D466BE599722B0F5C5A /* Globals.swift */; };
+		0B34B29DCFF24310DB6096F431D05AB8 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819191D01FE123988E566ECB240EEBF9 /* FloatingPoint.swift */; };
+		190305DD1663F44DDCEE2986B655EB95 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A29094B2B446B639ED7C015101700D38 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D0891D8DF0929968FED7E011FDB992 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD49E38258A207235FA54027072B32 /* CGPoint.swift */; };
+		1FF0667D8F3FAFB413043E19780518A9 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010FA8F0E60A7BC5F375613F90387E18 /* CGRect.swift */; };
+		204C420B2E08087BAA13D0745C779247 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E555A492B2B8A2E067E3DEE635996BD /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27CD5ACBCEE0915A06D6A80CABE89D22 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4561D6F15624916829A0A717926B91 /* PieChart.swift */; };
+		34CAB7F31908ECC2AEB99EA6826049B3 /* PieCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A0EC45F3ABC104211C95D4B595E621 /* PieCharts-dummy.m */; };
+		37590C862726F761E3B17B694A730690 /* Pods-MusicProfile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68264D1C0F9540F90ED9B4C8BD5FDD92 /* Pods-MusicProfile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E9C94959D22E34CCAE6DA566CFFCF9 /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D985D1972AC0910897C7B055C699E6 /* YouTubePlayer-dummy.m */; };
+		4D623ECDD6171CFBDABA6D3589EEBF45 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8D4E5E5BB629A77DE5105B04F8B91 /* CGSize.swift */; };
+		4DF34483354278BD1EA63A3CC7A50CFA /* PieSliceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD43BEBFBCD1BAD91378A9245DFCDF5A /* PieSliceDelegate.swift */; };
+		4FD5762222845EBE8BCE2F5B62654CD7 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE0501244FC718219A7D3EF0052A4A /* YouTubePlayer.swift */; };
+		52FEC469DC1B6E386AAA842598CD19BA /* PieCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4973D22833394730EA0A1A7FA2CB970B /* PieCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53B45AB9FBE5CD4BCC4639C2DC907EEB /* PieSliceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525E034B7BCC92FE9836DE5D74817AF /* PieSliceLayer.swift */; };
+		58163392028026F67191820DF6A7F208 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB5EAC5903207AFFF41F431E05870C2 /* SwiftyJSON-dummy.m */; };
+		5E636E84CA33C6383EC5D803015F44BF /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEADCBDD3F9AADE3B4C8C97D7033F8FD /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2547D65E35729649823288F3E31B06 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 105CA37865ED675FC4AAE4C06A6C5B28 /* Info.plist */; };
+		6CA761451B45C8297D78282043DABCE4 /* PieCustomViewsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FF0C2F3A09E6C56D82D5DB66A1D746 /* PieCustomViewsLayer.swift */; };
+		767D67EB6BB00165C2B4C51DF93A114E /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148A2176C31F284C0542E478D6AC1EDD /* UIImageView+SwiftyGif.swift */; };
+		847BAD9822C05029A78ED83F6F5D92A6 /* PieSliceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A2DB6D23D7030E881578B88A4D82A6 /* PieSliceModel.swift */; };
+		8B3FBEC1B31193573F0D1C3BF7D8E754 /* AlphaPieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585998926FE45CF52EE1221E0D19D7A /* AlphaPieLineTextLayerAnimator.swift */; };
+		8B623D1C8145561426E0FA85CC930682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		91E9F8DB9B958F5CE74194BF093EC204 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 13B2ED28E66D618CA6E204AFA4F0568B /* YTPlayer.html */; };
+		98A6B68C930BE1E1CDEF99E9A107D727 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CC7B63EFC435C5BFDCFEBD5CBD097 /* UIImage+SwiftyGif.swift */; };
+		98C2C24BA4760F6A285E30CAA4467B12 /* Pods-MusicProfile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B3EB6A18FB15668E02152D355DF31 /* Pods-MusicProfile-dummy.m */; };
+		9E1D720B60C87F2F349414E77E80A1CB /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C569D8ABAFB5EEA0BF4AF3525D44D7C4 /* SwiftyGif-dummy.m */; };
+		A1EF267D6DEDBC911FDC5C8DC34211D4 /* PieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8C2EDFB21E4551AEA595F23FA3058 /* PieViewLayerAnimator.swift */; };
+		A886C3EBF285F2B4A7D2A7EB15DC3BD5 /* PieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9493BF4183D9A254012D9F0D610FDDA /* PieLineTextLayerAnimator.swift */; };
+		B816D05421F1C3A224B1E49383AEAF18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
+		B82258CC621BF80A6BF6DD4B6FF395D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		CDD2005DD58BF0EDFA63176675C8A917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		CDD5A94AB041BC9ED367E5123254B352 /* PieChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560371A4F0D98A11F158F87EFC4864B /* PieChartLayer.swift */; };
+		CE4A28B70185589B97A52C2375F224E1 /* PieChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55D9B40226DEF79285C645CB214740 /* PieChartDelegate.swift */; };
+		D3AD18FDF871A2F4DBFF84F39D75D565 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = C68FD6A374CEED16CC4E32AA05447BAD /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57811E1F1A1C4024E5F67AC3BC58EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		D8B95E4C6149C26EE0CB690F8BA93820 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9430A49C11B7F13ABB9C94AFF305E /* SwiftyJSON.swift */; };
+		E1D62C5AE853D475FBEB562A105BDDA7 /* PiePlainTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F8DCF2B74411B5E8BCA1DEEB70F1B /* PiePlainTextLayer.swift */; };
+		E467687A4A8A981F5293BECDBCDADC74 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA984CC6B57B9109B14AA1569527665E /* PieSliceData.swift */; };
+		E87438828DF8DD13F06F0B969C55B045 /* AlphaPieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B98FA3090C09AACF6751C93545E3FB /* AlphaPieViewLayerAnimator.swift */; };
+		EC7E3714F37C66B42D016F831C0B4F69 /* PieChartLabelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3F35A4F5F6275493F527C8F9D57B1 /* PieChartLabelSettings.swift */; };
+		F0F478EF4CC94AB80B73C5132E284515 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B373E6ABAB954103EA3A257E8EBD0D04 /* SwiftyGifManager.swift */; };
+		F678B06EBFCA45F7423A5627B5A85F4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		FDDB8D65F603EDAFADBA538D28EA7B75 /* PieLineTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11BBE8494A8B3F211309F1B877A857 /* PieLineTextLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF1D83C1D57BD686C46E2996CD19449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3006C5CE7F780784823153342BB3537;
+			remoteInfo = SwiftyJSON;
+		};
+		649DA7EB314981AFB7281587D3BBC4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C314C27C5D09D5D7FAEF73176CF697C;
+			remoteInfo = YouTubePlayer;
+		};
+		69E28B3108A1A46C0E3AB6A2DA626ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBAFF08142E9CB8B2D30610A29D2258;
+			remoteInfo = SwiftyGif;
+		};
+		76AEA802A26DE51B91625AA4CE9B059B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4B9D023702B55BE61C5C148DF100EA;
+			remoteInfo = PieCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0026BF0EB71496C0558E0FD355502F17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010FA8F0E60A7BC5F375613F90387E18 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = PieCharts/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		069F8DCF2B74411B5E8BCA1DEEB70F1B /* PiePlainTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiePlainTextLayer.swift; path = PieCharts/Layer/Impl/PlainText/PiePlainTextLayer.swift; sourceTree = "<group>"; };
+		105CA37865ED675FC4AAE4C06A6C5B28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftyGif/Info.plist; sourceTree = "<group>"; };
+		133F44A6DBA2209B77F1BB06BB986A21 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		1369DEE549A60D466BE599722B0F5C5A /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = PieCharts/Util/Globals.swift; sourceTree = "<group>"; };
+		13B2ED28E66D618CA6E204AFA4F0568B /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
+		148A2176C31F284C0542E478D6AC1EDD /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		14B1655561EE678469E5D0A506AB04B5 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		19C649EF699BF8D634E9DFB4F25E77A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E555A492B2B8A2E067E3DEE635996BD /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		1F75FD58F3D5FA6A8068C48EEC031730 /* Pods_MusicProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MusicProfile.framework; path = "Pods-MusicProfile.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2585998926FE45CF52EE1221E0D19D7A /* AlphaPieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/AlphaPieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		2F4561D6F15624916829A0A717926B91 /* PieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = PieCharts/Core/Chart/PieChart.swift; sourceTree = "<group>"; };
+		38F3F35A4F5F6275493F527C8F9D57B1 /* PieChartLabelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLabelSettings.swift; path = PieCharts/Layer/Impl/Common/PieChartLabelSettings.swift; sourceTree = "<group>"; };
+		3A7CC7B63EFC435C5BFDCFEBD5CBD097 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		42B98FA3090C09AACF6751C93545E3FB /* AlphaPieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/AlphaPieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		4973D22833394730EA0A1A7FA2CB970B /* PieCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-umbrella.h"; sourceTree = "<group>"; };
+		4ABAD5A7F2D3A5A47C2D1400F7031945 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		4AF35FEABC671F8A57650DB439EBB3EF /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PieCharts.framework; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E64DEE4867D334675BB4AA6B9B11840 /* Pods-MusicProfile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MusicProfile.modulemap"; sourceTree = "<group>"; };
+		50C61CB4060CFD9E837DB43304FB362F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		544CBD9BADC1020FB8E24906DABF33D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D9430A49C11B7F13ABB9C94AFF305E /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		5F4399C2E84F186234F199F0138DC755 /* PieCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PieCharts.modulemap; sourceTree = "<group>"; };
+		68264D1C0F9540F90ED9B4C8BD5FDD92 /* Pods-MusicProfile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicProfile-umbrella.h"; sourceTree = "<group>"; };
+		6F0721C313E01325F23ED4DE7E926624 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		71A098123E8CB717866307214FA306E0 /* Pods-MusicProfile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicProfile.debug.xcconfig"; sourceTree = "<group>"; };
+		76755947F9C318888F9FD8DFA02F1AB2 /* YouTubePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.xcconfig; sourceTree = "<group>"; };
+		773FB6E1ECE1CC8F695352657944CE91 /* Pods-MusicProfile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicProfile.release.xcconfig"; sourceTree = "<group>"; };
+		7D13D19705E502C4833433835EB5AE5D /* Pods-MusicProfile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicProfile-acknowledgements.plist"; sourceTree = "<group>"; };
+		819191D01FE123988E566ECB240EEBF9 /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = PieCharts/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
+		84E31F7963AFF603A72CE43CE95CF99D /* Pods-MusicProfile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicProfile-resources.sh"; sourceTree = "<group>"; };
+		8BEC8A609369FBA7D5A5BE3FAAC8717F /* PieSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSlice.swift; path = PieCharts/Core/Slice/PieSlice.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943542BA4AD27AB8C2D3F7BEF72379EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A2DB6D23D7030E881578B88A4D82A6 /* PieSliceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceModel.swift; path = PieCharts/Model/PieSliceModel.swift; sourceTree = "<group>"; };
+		96A6D520B571D80AC60FDEF90ACE5116 /* Pods-MusicProfile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicProfile-frameworks.sh"; sourceTree = "<group>"; };
+		96EE0501244FC718219A7D3EF0052A4A /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
+		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A29094B2B446B639ED7C015101700D38 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6246E8C8FACE61E2578B95D065BB10D /* PieCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.xcconfig; sourceTree = "<group>"; };
+		A79B3EB6A18FB15668E02152D355DF31 /* Pods-MusicProfile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicProfile-dummy.m"; sourceTree = "<group>"; };
+		AD60D4EB6B350AD379EE7F25720483F5 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = PieCharts/Extensions/Int.swift; sourceTree = "<group>"; };
+		B27BEB96656BF6F4E39481F6719CB61F /* Pods-MusicProfile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicProfile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2AD49E38258A207235FA54027072B32 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = PieCharts/Extensions/CGPoint.swift; sourceTree = "<group>"; };
+		B373E6ABAB954103EA3A257E8EBD0D04 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		B5C8C2EDFB21E4551AEA595F23FA3058 /* PieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/PieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		B80039581CB6CDE0A3CA3FA9DE2EE4EF /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C2FF1C52FFA1C030111B1C5B6BEDC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB55D9B40226DEF79285C645CB214740 /* PieChartDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDelegate.swift; path = PieCharts/Core/Chart/PieChartDelegate.swift; sourceTree = "<group>"; };
+		BE11BBE8494A8B3F211309F1B877A857 /* PieLineTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayer.swift; path = PieCharts/Layer/Impl/LineText/PieLineTextLayer.swift; sourceTree = "<group>"; };
+		C2E8D4E5E5BB629A77DE5105B04F8B91 /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = PieCharts/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		C560371A4F0D98A11F158F87EFC4864B /* PieChartLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLayer.swift; path = PieCharts/Layer/PieChartLayer.swift; sourceTree = "<group>"; };
+		C569D8ABAFB5EEA0BF4AF3525D44D7C4 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		C68FD6A374CEED16CC4E32AA05447BAD /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		C6FF0C2F3A09E6C56D82D5DB66A1D746 /* PieCustomViewsLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieCustomViewsLayer.swift; path = PieCharts/Layer/Impl/View/PieCustomViewsLayer.swift; sourceTree = "<group>"; };
+		C8737ACCEA688B14018792D51DFAEF25 /* PieCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-prefix.pch"; sourceTree = "<group>"; };
+		CCB01766658B7F6801BAF2DE8A346845 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		CD43BEBFBCD1BAD91378A9245DFCDF5A /* PieSliceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceDelegate.swift; path = PieCharts/Core/Slice/PieSliceDelegate.swift; sourceTree = "<group>"; };
+		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEADCBDD3F9AADE3B4C8C97D7033F8FD /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
+		D2A0EC45F3ABC104211C95D4B595E621 /* PieCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PieCharts-dummy.m"; sourceTree = "<group>"; };
+		D329120BF026E8DFED8CEE84E548FF61 /* SwiftyGif.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.xcconfig; sourceTree = "<group>"; };
+		D821A102E197372F4A2253BB9846C084 /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		DAB5EAC5903207AFFF41F431E05870C2 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		DBF9F26B73B11B03DBF81275E54D0269 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		E071C38FF33E99CA5843EEF0A08D4BFB /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D985D1972AC0910897C7B055C699E6 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		F525E034B7BCC92FE9836DE5D74817AF /* PieSliceLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceLayer.swift; path = PieCharts/Core/Slice/PieSliceLayer.swift; sourceTree = "<group>"; };
+		F9493BF4183D9A254012D9F0D610FDDA /* PieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/PieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		FA984CC6B57B9109B14AA1569527665E /* PieSliceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceData.swift; path = PieCharts/Model/PieSliceData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410E1E7B9429A2FA26B71674E32985ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82258CC621BF80A6BF6DD4B6FF395D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46147B9324D3267061618ED6EC2BBD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57811E1F1A1C4024E5F67AC3BC58EBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCADC46D903EB5891B4832B77F967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD2005DD58BF0EDFA63176675C8A917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9E2DB406029C5E348ACC73FCA79108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B623D1C8145561426E0FA85CC930682 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A9331E7094391BD25AE6ECDD88E7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816D05421F1C3A224B1E49383AEAF18 /* CoreGraphics.framework in Frameworks */,
+				F678B06EBFCA45F7423A5627B5A85F4C /* Foundation.framework in Frameworks */,
+				04B3444EFD7E1108F7B9543E015C8D11 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C07C2EA3B709223A3D9777D9C7E664 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C649EF699BF8D634E9DFB4F25E77A7 /* Info.plist */,
+				D821A102E197372F4A2253BB9846C084 /* YouTubePlayer.modulemap */,
+				76755947F9C318888F9FD8DFA02F1AB2 /* YouTubePlayer.xcconfig */,
+				E7D985D1972AC0910897C7B055C699E6 /* YouTubePlayer-dummy.m */,
+				133F44A6DBA2209B77F1BB06BB986A21 /* YouTubePlayer-prefix.pch */,
+				CEADCBDD3F9AADE3B4C8C97D7033F8FD /* YouTubePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
+		0C8075841220DB3EBC5635777CCB2A22 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				105CA37865ED675FC4AAE4C06A6C5B28 /* Info.plist */,
+				C68FD6A374CEED16CC4E32AA05447BAD /* SwiftyGif.h */,
+				B373E6ABAB954103EA3A257E8EBD0D04 /* SwiftyGifManager.swift */,
+				3A7CC7B63EFC435C5BFDCFEBD5CBD097 /* UIImage+SwiftyGif.swift */,
+				148A2176C31F284C0542E478D6AC1EDD /* UIImageView+SwiftyGif.swift */,
+				CEB126BF1978639D5C46A6C227642BBA /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		1015F8DFE5570B70A4BB55C509B92A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93A8BA3259047834D13FE12FD67B1A5D /* PieCharts */,
+				0C8075841220DB3EBC5635777CCB2A22 /* SwiftyGif */,
+				C5AA09238F1B9FEE8B4C33ED877FF934 /* SwiftyJSON */,
+				F20EEBCD8B2D75D846069BB0EEECBEE2 /* YouTubePlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		112412ACB3644116C57B15639D7EE057 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				544CBD9BADC1020FB8E24906DABF33D5 /* Info.plist */,
+				5F4399C2E84F186234F199F0138DC755 /* PieCharts.modulemap */,
+				A6246E8C8FACE61E2578B95D065BB10D /* PieCharts.xcconfig */,
+				D2A0EC45F3ABC104211C95D4B595E621 /* PieCharts-dummy.m */,
+				C8737ACCEA688B14018792D51DFAEF25 /* PieCharts-prefix.pch */,
+				4973D22833394730EA0A1A7FA2CB970B /* PieCharts-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PieCharts";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62340F24637F50B09B78B704E8B6D185 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13B2ED28E66D618CA6E204AFA4F0568B /* YTPlayer.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				1015F8DFE5570B70A4BB55C509B92A6B /* Pods */,
+				EE9D7E7F56209498B8F98E5CE43E9E67 /* Products */,
+				ECA535D6E89C07A98125691E406BE0CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A8BA3259047834D13FE12FD67B1A5D /* PieCharts */ = {
+			isa = PBXGroup;
+			children = (
+				2585998926FE45CF52EE1221E0D19D7A /* AlphaPieLineTextLayerAnimator.swift */,
+				42B98FA3090C09AACF6751C93545E3FB /* AlphaPieViewLayerAnimator.swift */,
+				B2AD49E38258A207235FA54027072B32 /* CGPoint.swift */,
+				010FA8F0E60A7BC5F375613F90387E18 /* CGRect.swift */,
+				C2E8D4E5E5BB629A77DE5105B04F8B91 /* CGSize.swift */,
+				819191D01FE123988E566ECB240EEBF9 /* FloatingPoint.swift */,
+				1369DEE549A60D466BE599722B0F5C5A /* Globals.swift */,
+				AD60D4EB6B350AD379EE7F25720483F5 /* Int.swift */,
+				2F4561D6F15624916829A0A717926B91 /* PieChart.swift */,
+				BB55D9B40226DEF79285C645CB214740 /* PieChartDelegate.swift */,
+				38F3F35A4F5F6275493F527C8F9D57B1 /* PieChartLabelSettings.swift */,
+				C560371A4F0D98A11F158F87EFC4864B /* PieChartLayer.swift */,
+				C6FF0C2F3A09E6C56D82D5DB66A1D746 /* PieCustomViewsLayer.swift */,
+				BE11BBE8494A8B3F211309F1B877A857 /* PieLineTextLayer.swift */,
+				F9493BF4183D9A254012D9F0D610FDDA /* PieLineTextLayerAnimator.swift */,
+				069F8DCF2B74411B5E8BCA1DEEB70F1B /* PiePlainTextLayer.swift */,
+				8BEC8A609369FBA7D5A5BE3FAAC8717F /* PieSlice.swift */,
+				FA984CC6B57B9109B14AA1569527665E /* PieSliceData.swift */,
+				CD43BEBFBCD1BAD91378A9245DFCDF5A /* PieSliceDelegate.swift */,
+				F525E034B7BCC92FE9836DE5D74817AF /* PieSliceLayer.swift */,
+				96A2DB6D23D7030E881578B88A4D82A6 /* PieSliceModel.swift */,
+				B5C8C2EDFB21E4551AEA595F23FA3058 /* PieViewLayerAnimator.swift */,
+				112412ACB3644116C57B15639D7EE057 /* Support Files */,
+			);
+			name = PieCharts;
+			path = PieCharts;
+			sourceTree = "<group>";
+		};
+		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
+				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
+				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B1AF45196B8302FDCC0C59AEE68E8A9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0026BF0EB71496C0558E0FD355502F17 /* Info.plist */,
+				DBF9F26B73B11B03DBF81275E54D0269 /* SwiftyJSON.modulemap */,
+				CCB01766658B7F6801BAF2DE8A346845 /* SwiftyJSON.xcconfig */,
+				DAB5EAC5903207AFFF41F431E05870C2 /* SwiftyJSON-dummy.m */,
+				14B1655561EE678469E5D0A506AB04B5 /* SwiftyJSON-prefix.pch */,
+				A29094B2B446B639ED7C015101700D38 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		C5AA09238F1B9FEE8B4C33ED877FF934 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				54D9430A49C11B7F13ABB9C94AFF305E /* SwiftyJSON.swift */,
+				B1AF45196B8302FDCC0C59AEE68E8A9E /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		CEB126BF1978639D5C46A6C227642BBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8C2FF1C52FFA1C030111B1C5B6BEDC0 /* Info.plist */,
+				6F0721C313E01325F23ED4DE7E926624 /* SwiftyGif.modulemap */,
+				D329120BF026E8DFED8CEE84E548FF61 /* SwiftyGif.xcconfig */,
+				C569D8ABAFB5EEA0BF4AF3525D44D7C4 /* SwiftyGif-dummy.m */,
+				4ABAD5A7F2D3A5A47C2D1400F7031945 /* SwiftyGif-prefix.pch */,
+				1E555A492B2B8A2E067E3DEE635996BD /* SwiftyGif-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		ECA535D6E89C07A98125691E406BE0CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2030596A81A8D3BB200D59D758FD78 /* Pods-MusicProfile */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE9D7E7F56209498B8F98E5CE43E9E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF35FEABC671F8A57650DB439EBB3EF /* PieCharts.framework */,
+				1F75FD58F3D5FA6A8068C48EEC031730 /* Pods_MusicProfile.framework */,
+				B80039581CB6CDE0A3CA3FA9DE2EE4EF /* SwiftyGif.framework */,
+				50C61CB4060CFD9E837DB43304FB362F /* SwiftyJSON.framework */,
+				E071C38FF33E99CA5843EEF0A08D4BFB /* YouTubePlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20EEBCD8B2D75D846069BB0EEECBEE2 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				96EE0501244FC718219A7D3EF0052A4A /* YouTubePlayer.swift */,
+				62340F24637F50B09B78B704E8B6D185 /* Resources */,
+				05C07C2EA3B709223A3D9777D9C7E664 /* Support Files */,
+			);
+			name = YouTubePlayer;
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		FE2030596A81A8D3BB200D59D758FD78 /* Pods-MusicProfile */ = {
+			isa = PBXGroup;
+			children = (
+				943542BA4AD27AB8C2D3F7BEF72379EE /* Info.plist */,
+				4E64DEE4867D334675BB4AA6B9B11840 /* Pods-MusicProfile.modulemap */,
+				B27BEB96656BF6F4E39481F6719CB61F /* Pods-MusicProfile-acknowledgements.markdown */,
+				7D13D19705E502C4833433835EB5AE5D /* Pods-MusicProfile-acknowledgements.plist */,
+				A79B3EB6A18FB15668E02152D355DF31 /* Pods-MusicProfile-dummy.m */,
+				96A6D520B571D80AC60FDEF90ACE5116 /* Pods-MusicProfile-frameworks.sh */,
+				84E31F7963AFF603A72CE43CE95CF99D /* Pods-MusicProfile-resources.sh */,
+				68264D1C0F9540F90ED9B4C8BD5FDD92 /* Pods-MusicProfile-umbrella.h */,
+				71A098123E8CB717866307214FA306E0 /* Pods-MusicProfile.debug.xcconfig */,
+				773FB6E1ECE1CC8F695352657944CE91 /* Pods-MusicProfile.release.xcconfig */,
+			);
+			name = "Pods-MusicProfile";
+			path = "Target Support Files/Pods-MusicProfile";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BBBE0219F1FE76DC8124A383D757059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FEC469DC1B6E386AAA842598CD19BA /* PieCharts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5247612DD16286E9E8616B64C3483A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E636E84CA33C6383EC5D803015F44BF /* YouTubePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC6C908E840D4A28C50C244179CDDDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37590C862726F761E3B17B694A730690 /* Pods-MusicProfile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C560703AFFC1010C8377532D65F38DD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190305DD1663F44DDCEE2986B655EB95 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFE62064B9363804A3617378C265CE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204C420B2E08087BAA13D0745C779247 /* SwiftyGif-umbrella.h in Headers */,
+				D3AD18FDF871A2F4DBFF84F39D75D565 /* SwiftyGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C314C27C5D09D5D7FAEF73176CF697C /* YouTubePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894DA46A40722395230BDB9757BB4379 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */;
+			buildPhases = (
+				CBCAF0F7733CB684D745DACCBF2ACF80 /* Sources */,
+				AC9E2DB406029C5E348ACC73FCA79108 /* Frameworks */,
+				093DBCD19E41B4ED66D3FF0B91156549 /* Resources */,
+				5C5247612DD16286E9E8616B64C3483A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePlayer;
+			productName = YouTubePlayer;
+			productReference = E071C38FF33E99CA5843EEF0A08D4BFB /* YouTubePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DBAFF08142E9CB8B2D30610A29D2258 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4217014B93E385D601D985CD083FCFF /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				E220A79A4E38639327F6ADE320B7659C /* Sources */,
+				505DCADC46D903EB5891B4832B77F967 /* Frameworks */,
+				DEFE62064B9363804A3617378C265CE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = B80039581CB6CDE0A3CA3FA9DE2EE4EF /* SwiftyGif.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E4B9D023702B55BE61C5C148DF100EA /* PieCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF7ADD158EE979EB96C0FC969FCC821 /* Build configuration list for PBXNativeTarget "PieCharts" */;
+			buildPhases = (
+				893409F1BB3E0853824B2E55FC9502C6 /* Sources */,
+				B3A9331E7094391BD25AE6ECDD88E7CA /* Frameworks */,
+				5BBBE0219F1FE76DC8124A383D757059 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieCharts;
+			productName = PieCharts;
+			productReference = 4AF35FEABC671F8A57650DB439EBB3EF /* PieCharts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8985C26483B8B76D33410B80BFE785C4 /* Pods-MusicProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCF7528791FF9A8EFDE796CD92820BC /* Build configuration list for PBXNativeTarget "Pods-MusicProfile" */;
+			buildPhases = (
+				A098E7765C32DF0D068D4D5E81CE19AF /* Sources */,
+				410E1E7B9429A2FA26B71674E32985ED /* Frameworks */,
+				AAC6C908E840D4A28C50C244179CDDDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BDAD2CCBAF9E42D972267E858F0A19 /* PBXTargetDependency */,
+				F8CAC9DE025F49858265CE248F41CF42 /* PBXTargetDependency */,
+				769DD5B8E4D9E861AEC49C9445CBBB76 /* PBXTargetDependency */,
+				03DE30E152444A73D287758EC3FE0307 /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicProfile";
+			productName = "Pods-MusicProfile";
+			productReference = 1F75FD58F3D5FA6A8068C48EEC031730 /* Pods_MusicProfile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3006C5CE7F780784823153342BB3537 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4810DBAE27F68EAD297EF63856D9B64 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3C5F270726408C51716363E6757BDBCD /* Sources */,
+				46147B9324D3267061618ED6EC2BBD5B /* Frameworks */,
+				C560703AFFC1010C8377532D65F38DD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 50C61CB4060CFD9E837DB43304FB362F /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE9D7E7F56209498B8F98E5CE43E9E67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E4B9D023702B55BE61C5C148DF100EA /* PieCharts */,
+				8985C26483B8B76D33410B80BFE785C4 /* Pods-MusicProfile */,
+				3DBAFF08142E9CB8B2D30610A29D2258 /* SwiftyGif */,
+				D3006C5CE7F780784823153342BB3537 /* SwiftyJSON */,
+				1C314C27C5D09D5D7FAEF73176CF697C /* YouTubePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093DBCD19E41B4ED66D3FF0B91156549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E9F8DB9B958F5CE74194BF093EC204 /* YTPlayer.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5F270726408C51716363E6757BDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58163392028026F67191820DF6A7F208 /* SwiftyJSON-dummy.m in Sources */,
+				D8B95E4C6149C26EE0CB690F8BA93820 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893409F1BB3E0853824B2E55FC9502C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3FBEC1B31193573F0D1C3BF7D8E754 /* AlphaPieLineTextLayerAnimator.swift in Sources */,
+				E87438828DF8DD13F06F0B969C55B045 /* AlphaPieViewLayerAnimator.swift in Sources */,
+				19D0891D8DF0929968FED7E011FDB992 /* CGPoint.swift in Sources */,
+				1FF0667D8F3FAFB413043E19780518A9 /* CGRect.swift in Sources */,
+				4D623ECDD6171CFBDABA6D3589EEBF45 /* CGSize.swift in Sources */,
+				0B34B29DCFF24310DB6096F431D05AB8 /* FloatingPoint.swift in Sources */,
+				0AA81CDBF93F9CDF97456CF73BAFF2B9 /* Globals.swift in Sources */,
+				092080F1DF547E2BA5961DE79832BAAA /* Int.swift in Sources */,
+				27CD5ACBCEE0915A06D6A80CABE89D22 /* PieChart.swift in Sources */,
+				CE4A28B70185589B97A52C2375F224E1 /* PieChartDelegate.swift in Sources */,
+				EC7E3714F37C66B42D016F831C0B4F69 /* PieChartLabelSettings.swift in Sources */,
+				CDD5A94AB041BC9ED367E5123254B352 /* PieChartLayer.swift in Sources */,
+				34CAB7F31908ECC2AEB99EA6826049B3 /* PieCharts-dummy.m in Sources */,
+				6CA761451B45C8297D78282043DABCE4 /* PieCustomViewsLayer.swift in Sources */,
+				FDDB8D65F603EDAFADBA538D28EA7B75 /* PieLineTextLayer.swift in Sources */,
+				A886C3EBF285F2B4A7D2A7EB15DC3BD5 /* PieLineTextLayerAnimator.swift in Sources */,
+				E1D62C5AE853D475FBEB562A105BDDA7 /* PiePlainTextLayer.swift in Sources */,
+				0523B7C8A63DA42128DD53158BE63E20 /* PieSlice.swift in Sources */,
+				E467687A4A8A981F5293BECDBCDADC74 /* PieSliceData.swift in Sources */,
+				4DF34483354278BD1EA63A3CC7A50CFA /* PieSliceDelegate.swift in Sources */,
+				53B45AB9FBE5CD4BCC4639C2DC907EEB /* PieSliceLayer.swift in Sources */,
+				847BAD9822C05029A78ED83F6F5D92A6 /* PieSliceModel.swift in Sources */,
+				A1EF267D6DEDBC911FDC5C8DC34211D4 /* PieViewLayerAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E7765C32DF0D068D4D5E81CE19AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C2C24BA4760F6A285E30CAA4467B12 /* Pods-MusicProfile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCAF0F7733CB684D745DACCBF2ACF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E9C94959D22E34CCAE6DA566CFFCF9 /* YouTubePlayer-dummy.m in Sources */,
+				4FD5762222845EBE8BCE2F5B62654CD7 /* YouTubePlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E220A79A4E38639327F6ADE320B7659C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2547D65E35729649823288F3E31B06 /* Info.plist in Sources */,
+				9E1D720B60C87F2F349414E77E80A1CB /* SwiftyGif-dummy.m in Sources */,
+				F0F478EF4CC94AB80B73C5132E284515 /* SwiftyGifManager.swift in Sources */,
+				98A6B68C930BE1E1CDEF99E9A107D727 /* UIImage+SwiftyGif.swift in Sources */,
+				767D67EB6BB00165C2B4C51DF93A114E /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DE30E152444A73D287758EC3FE0307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 1C314C27C5D09D5D7FAEF73176CF697C /* YouTubePlayer */;
+			targetProxy = 649DA7EB314981AFB7281587D3BBC4FE /* PBXContainerItemProxy */;
+		};
+		769DD5B8E4D9E861AEC49C9445CBBB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D3006C5CE7F780784823153342BB3537 /* SwiftyJSON */;
+			targetProxy = 1DF1D83C1D57BD686C46E2996CD19449 /* PBXContainerItemProxy */;
+		};
+		E5BDAD2CCBAF9E42D972267E858F0A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5E4B9D023702B55BE61C5C148DF100EA /* PieCharts */;
+			targetProxy = 76AEA802A26DE51B91625AA4CE9B059B /* PBXContainerItemProxy */;
+		};
+		F8CAC9DE025F49858265CE248F41CF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 3DBAFF08142E9CB8B2D30610A29D2258 /* SwiftyGif */;
+			targetProxy = 69E28B3108A1A46C0E3AB6A2DA626ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AD4A31FB3B8D7288701B761BB894726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB01766658B7F6801BAF2DE8A346845 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		255163F20D24892E5E5193808F1468E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76755947F9C318888F9FD8DFA02F1AB2 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		694AA3BFBF6135D409B6228B58FF985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6246E8C8FACE61E2578B95D065BB10D /* PieCharts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E058C23F184D78FE17A90A329FF2E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D329120BF026E8DFED8CEE84E548FF61 /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90A4D08C29443AB989D5E732FC0DF96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76755947F9C318888F9FD8DFA02F1AB2 /* YouTubePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91940826C849979C06B985324B8F496B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB01766658B7F6801BAF2DE8A346845 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		955674414E37751F719918240CF93153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A098123E8CB717866307214FA306E0 /* Pods-MusicProfile.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicProfile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicProfile/Pods-MusicProfile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MusicProfile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9939DB802777C4A11929423BC75959D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773FB6E1ECE1CC8F695352657944CE91 /* Pods-MusicProfile.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicProfile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicProfile/Pods-MusicProfile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MusicProfile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BC4211587A9351A419458457F0B1EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D329120BF026E8DFED8CEE84E548FF61 /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDCA4975609AEC5AF4F9B258FC92C18E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6246E8C8FACE61E2578B95D065BB10D /* PieCharts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF7ADD158EE979EB96C0FC969FCC821 /* Build configuration list for PBXNativeTarget "PieCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA4975609AEC5AF4F9B258FC92C18E /* Debug */,
+				694AA3BFBF6135D409B6228B58FF985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCF7528791FF9A8EFDE796CD92820BC /* Build configuration list for PBXNativeTarget "Pods-MusicProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955674414E37751F719918240CF93153 /* Debug */,
+				9939DB802777C4A11929423BC75959D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894DA46A40722395230BDB9757BB4379 /* Build configuration list for PBXNativeTarget "YouTubePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A4D08C29443AB989D5E732FC0DF96F /* Debug */,
+				255163F20D24892E5E5193808F1468E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4217014B93E385D601D985CD083FCFF /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E058C23F184D78FE17A90A329FF2E3E /* Debug */,
+				9BC4211587A9351A419458457F0B1EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4810DBAE27F68EAD297EF63856D9B64 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91940826C849979C06B985324B8F496B /* Debug */,
+				0AD4A31FB3B8D7288701B761BB894726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,21 +1,22 @@
 PODS:
   - PieCharts (0.0.4)
-  - SwiftyGif (3.0.3)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
   - SwiftyJSON (3.1.4)
-  - YouTubePlayer (0.4.0)
 
 DEPENDENCIES:
   - PieCharts
-  - SwiftyGif
+  - RxCocoa
+  - RxSwift
   - SwiftyJSON
-  - YouTubePlayer
 
 SPEC CHECKSUMS:
   PieCharts: 5303e2b21f9c4a3f2def74ab10b7718577432958
-  SwiftyGif: 89a0bb19709bdb6990e10405ad456d8bea804a65
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
 
-PODFILE CHECKSUM: ab9c80bd341d8349bc562eceb15e7b1c287156b4
+PODFILE CHECKSUM: eda7d52eaf0ca046a6d1484650ff9cae1bd80d0b
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1

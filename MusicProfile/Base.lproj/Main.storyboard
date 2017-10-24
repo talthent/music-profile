@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -43,21 +43,9 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9QO-eT-FSb" userLabel="StatusBar">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUQ-gj-1Ir" customClass="YouTubePlayerView" customModule="YouTubePlayer">
-                                                <rect key="frame" x="10" y="20" width="355" height="170"/>
-                                                <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="170" id="Fgh-ry-rtt"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
                                         <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="190" id="Gq0-8S-XmO"/>
-                                            <constraint firstItem="EUQ-gj-1Ir" firstAttribute="leading" secondItem="9QO-eT-FSb" secondAttribute="leading" constant="10" id="KCT-Ur-7Zv"/>
-                                            <constraint firstAttribute="trailing" secondItem="EUQ-gj-1Ir" secondAttribute="trailing" constant="10" id="KUh-Ln-GVq"/>
-                                            <constraint firstAttribute="bottom" secondItem="EUQ-gj-1Ir" secondAttribute="bottom" id="wSy-js-Yxe"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-4Z-juD" userLabel="SongDetails">
@@ -67,7 +55,7 @@
                                                 <rect key="frame" x="154.5" y="20" width="66" height="66"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwS-bY-vKJ">
-                                                        <rect key="frame" x="10" y="0.0" width="46" height="24"/>
+                                                        <rect key="frame" x="10.5" y="0.0" width="45" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                         <color key="textColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -167,8 +155,8 @@
                                     <constraint firstItem="gYS-67-Y5e" firstAttribute="centerY" secondItem="xK1-Lx-CU7" secondAttribute="centerY" id="uTk-9Y-laK"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRo-7k-4ac" userLabel="Loader">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRo-7k-4ac" userLabel="Loader">
+                                <rect key="frame" x="-1" y="-1" width="375" height="667"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="heO-gD-FoD">
                                         <rect key="frame" x="127" y="273" width="120" height="120"/>
@@ -218,7 +206,6 @@
                         <outlet property="songLabel" destination="fwS-bY-vKJ" id="s9J-s9-UEX"/>
                         <outlet property="subgenreLabel" destination="qpC-Aa-njh" id="5ox-h2-hPZ"/>
                         <outlet property="tableView" destination="O7M-WB-DAg" id="ZyC-zH-eqT"/>
-                        <outlet property="youtubePlayer" destination="EUQ-gj-1Ir" id="HyV-tS-mmZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

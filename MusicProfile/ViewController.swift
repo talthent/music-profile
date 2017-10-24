@@ -9,14 +9,11 @@
 import UIKit
 import PieCharts
 import SwiftyJSON
-import YouTubePlayer
-import SwiftyGif
 
 class ViewController: UIViewController {
     @IBOutlet weak var loaderView: UIView!
     @IBOutlet weak var loaderAnimation: UIImageView!
     
-    @IBOutlet weak var youtubePlayer: YouTubePlayerView!
     @IBOutlet weak var songLabel: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
     @IBOutlet weak var subgenreLabel: UILabel!
@@ -141,18 +138,25 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
         self.artistLabel.text = song.artistName
         self.subgenreLabel.text = song.genre
         let myVideoURL = URL(string: song.url)
-        self.youtubePlayer.loadVideoURL(myVideoURL!)
     }
     
     func showLoader() {
         self.loaderView.isHidden = false
-        let loaderGif = UIImage(gifName: "smallLoader", levelOfIntegrity: 1)
-        self.loaderAnimation.setGifImage(loaderGif, manager: SwiftyGifManager.defaultManager)
-        self.loaderAnimation.startAnimatingGif()
+        var images = [UIImage]()
+        let loaderImagesCount = 65
+        for i in 0..<loaderImagesCount {
+            let imageName = "smallLoader-\(i)"
+            let image = UIImage(named: imageName)!
+            images.append(image)
+        }
+        let gifFps = 30
+        self.loaderAnimation.animationImages = images
+        self.loaderAnimation.animationDuration = TimeInterval(loaderImagesCount/gifFps)
+        self.loaderAnimation.startAnimating()
     }
     
     func hideLoader() {
-        self.loaderAnimation.stopAnimatingGif()
+        self.loaderAnimation.stopAnimating()
         self.loaderView.isHidden = true
     }
 }

@@ -5,9 +5,10 @@ target 'MusicProfile' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'PieCharts'
-  pod 'SwiftyJSON'
-  pod 'YouTubePlayer'
-  pod 'SwiftyGif'
+	pod 'RxCocoa'
+    pod 'RxSwift'
+    pod 'SwiftyJSON'
+	pod 'PieCharts'
+	
 
 end

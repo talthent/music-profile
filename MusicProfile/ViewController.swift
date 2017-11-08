@@ -9,6 +9,7 @@
 import UIKit
 import PieCharts
 import SwiftyJSON
+import MediaPlayer
 
 class ViewController: UIViewController {
     @IBOutlet weak var loaderView: UIView!
@@ -24,6 +25,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var detailedPie: PieChart!
     @IBOutlet weak var tableView: UITableView!
     
+    let authManager = AuthorizationManager()
+    let player = MPMusicPlayerController.applicationMusicPlayer()
+    
     var models = [PieSliceModel]()
     var playlist : [Song] {
         get {
@@ -32,6 +36,11 @@ class ViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        self.authManager.requestStorefrontCountryCode(success: { _ in
+            
+        }) { _ in
+            
+        }
         self.showLoader()
         self.tableView.delegate = self
         self.tableView.dataSource = self
@@ -77,6 +86,7 @@ class ViewController: UIViewController {
     
     func setupPlaylist() {
         let myUser = AppData.shared.user!
+        
         APIManager.getPlaylist(userId: myUser.userId, startingGenre: myUser.randomSubgenre?.name ?? "random", success: { playlist in
             AppData.shared.playlist += playlist
             DispatchQueue.main.async { [unowned self] in
@@ -137,7 +147,16 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
         self.songLabel.text = song.songName
         self.artistLabel.text = song.artistName
         self.subgenreLabel.text = song.genre
-        let myVideoURL = URL(string: song.url)
+        
+        MusicAPI().searchSong(song.songName, artist: song.artistName, limit: 1, success: { (songs) in
+            let ids = songs.map{$0.id}
+            self.player.setQueueWithStoreIDs(ids)
+            self.player.play()
+            
+        }, failure: { (error) in
+            print("error = \(error)")
+        })
+        
     }
     
     func showLoader() {

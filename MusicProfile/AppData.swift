@@ -17,12 +17,22 @@ class AppData {
 }
 
 class Song {
+    let id: String
     let artistName : String
     let songName : String
     let genre : String
     let url : String
     
+    init(id: String, songName: String, artistName: String, genre: String, url : String) {
+        self.id = id
+        self.artistName = artistName
+        self.songName = songName
+        self.genre = genre
+        self.url = url
+    }
+    
     init(json: JSON) {
+        self.id = UUID().uuidString
         self.artistName = json["artistName"].stringValue
         self.songName = json["songName"].stringValue
         self.genre = json["currGenre"].stringValue
